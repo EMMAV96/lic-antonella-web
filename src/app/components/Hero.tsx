@@ -13,42 +13,45 @@ export function Hero() {
           {/* CONTENIDO */}
           <div className="max-w-2xl">
 
+            {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-secondary/40 px-4 py-2 rounded-full mb-5">
               <Sparkles className="w-4 h-4 text-accent" />
 
               <span className="text-sm text-accent-foreground">
-                Espacio de Escucha y Bienestar
+                Espacio de escucha y acompañamiento
               </span>
             </div>
 
+            {/* Nombre */}
             <p className="text-sm sm:text-base text-primary mb-3 font-medium">
               Lic. Gómez Antonella · Psicóloga Clínica
             </p>
 
+            {/* Título */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl mb-6 text-foreground leading-tight font-semibold">
-              Te acompaño a construir una vida con mayor{" "}
-              <span className="text-primary">
-                bienestar emocional
-              </span>
+              Un espacio para hablar, sentir y
+              <span className="text-primary"> sentirte acompañado/a</span>
             </h1>
 
+            {/* Texto */}
             <p className="text-base sm:text-lg text-muted-foreground mb-8 leading-relaxed max-w-xl">
-              Acompañamiento psicológico desde la terapia integrativa conductual,
-              brindándote un espacio seguro, empático y profesional para trabajar
-              en tu bienestar emocional.
+              A veces atravesamos momentos difíciles, de ansiedad, angustia o
+              simplemente sentimos que necesitamos un espacio para nosotros.
+              Mi objetivo es acompañarte desde una mirada cercana, respetuosa
+              y profesional, para que puedas transitar tu proceso con mayor calma.
             </p>
 
             {/* BOTONES */}
             <div className="flex flex-col sm:flex-row flex-wrap gap-4">
 
               <a
-                href="https://wa.me/5493625268478?text=Hola%20Antonella,%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20terapia."
+                href="https://wa.link/26q7ht"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full hover:bg-accent transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-sm sm:text-base"
               >
                 <Calendar className="w-5 h-5" />
-                Comenzar terapia
+                Solicitar información
               </a>
 
               <a
@@ -64,15 +67,15 @@ export function Hero() {
             <div className="mt-10 flex flex-wrap gap-3">
 
               <div className="px-4 py-2 rounded-full bg-secondary text-sm text-secondary-foreground">
-                Atención personalizada
+                Ansiedad
               </div>
 
               <div className="px-4 py-2 rounded-full bg-secondary text-sm text-secondary-foreground">
-                Terapia basada en evidencia
+                Autoestima
               </div>
 
               <div className="px-4 py-2 rounded-full bg-secondary text-sm text-secondary-foreground">
-                Espacio seguro y confidencial
+                Vínculos
               </div>
 
             </div>
@@ -81,7 +84,7 @@ export function Hero() {
             <div className="flex items-center gap-2 text-sm text-muted-foreground mt-6">
               <ShieldCheck className="w-4 h-4 text-primary" />
 
-              Atención personalizada para jovenes y adultos
+              Atención presencial y online para jóvenes y adultos
             </div>
 
           </div>
@@ -101,6 +104,7 @@ export function Hero() {
               />
             </div>
           </div>
+
         </div>
       </div>
     </section>

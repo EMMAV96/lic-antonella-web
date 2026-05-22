@@ -16,9 +16,9 @@ const services = [
   },
   {
     icon: Users,
-    title: "Terapia de Pareja",
+    title: "Terapia Adultos mayores",
     description:
-      "Fortalece la comunicación y construye vínculos más saludables.",
+      "Intervencion psicologica en la vejez",
   },
   {
     icon: Lightbulb,

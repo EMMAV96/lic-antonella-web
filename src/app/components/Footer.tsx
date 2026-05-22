@@ -1,11 +1,9 @@
 import {
   Instagram,
-  Facebook,
-  Linkedin,
   Mail,
   Phone,
-  MessageCircle,
 } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -42,19 +40,31 @@ export function Footer() {
 
             <div className="flex flex-col gap-3">
 
-              <a href="#inicio" className="text-white/70 hover:text-white transition-colors">
+              <a
+                href="#inicio"
+                className="text-white/70 hover:text-white transition-colors"
+              >
                 Inicio
               </a>
 
-              <a href="#sobre-mi" className="text-white/70 hover:text-white transition-colors">
+              <a
+                href="#sobre-mi"
+                className="text-white/70 hover:text-white transition-colors"
+              >
                 Sobre mí
               </a>
 
-              <a href="#servicios" className="text-white/70 hover:text-white transition-colors">
+              <a
+                href="#servicios"
+                className="text-white/70 hover:text-white transition-colors"
+              >
                 Servicios
               </a>
 
-              <a href="#contacto" className="text-white/70 hover:text-white transition-colors">
+              <a
+                href="#contacto"
+                className="text-white/70 hover:text-white transition-colors"
+              >
                 Contacto
               </a>
 
@@ -71,6 +81,7 @@ export function Footer() {
 
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
+
                 <span className="text-white/70">
                   +54 3625 268478
                 </span>
@@ -78,6 +89,7 @@ export function Footer() {
 
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
+
                 <span className="text-white/70 break-all">
                   lic.gomezantonella@gmail.com
                 </span>
@@ -88,21 +100,32 @@ export function Footer() {
             {/* REDES */}
             <div className="flex gap-3 mt-8">
 
-              {[Instagram, Facebook, Linkedin, MessageCircle].map(
-                (Icon, index) => (
-                  <div
-                    key={index}
-                    className="w-11 h-11 rounded-full bg-white/10 hover:bg-accent transition-all duration-300 flex items-center justify-center cursor-pointer"
-                  >
-                    <Icon className="w-5 h-5" />
-                  </div>
-                )
-              )}
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/antogomezpsico?igsh=MTAzbHZ4N25lcmZydA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-11 h-11 rounded-full bg-white/10 hover:bg-accent transition-all duration-300 flex items-center justify-center"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+
+              {/* TikTok */}
+              <a
+                href="https://www.tiktok.com/@antogomezpsico"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="w-11 h-11 rounded-full bg-white/10 hover:bg-accent transition-all duration-300 flex items-center justify-center"
+              >
+                <FaTiktok className="w-5 h-5" />
+              </a>
+
             </div>
           </div>
         </div>
 
-        
         {/* COPYRIGHT */}
         <div className="border-t border-white/10 pt-6 text-center space-y-2">
 
