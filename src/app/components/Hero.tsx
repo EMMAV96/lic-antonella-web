@@ -45,7 +45,7 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row flex-wrap gap-4">
 
               <a
-                href="https://wa.link/26q7ht"
+                href="https://w.app/injscb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full hover:bg-accent transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-sm sm:text-base"

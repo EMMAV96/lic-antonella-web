@@ -56,7 +56,7 @@ export function Header() {
 
           {/* CTA */}
           <a
-            href="https://wa.link/26q7ht"
+            href="https://w.app/injscb"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-5 sm:px-6 py-2.5 rounded-full hover:bg-accent transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 text-sm sm:text-base whitespace-nowrap"
